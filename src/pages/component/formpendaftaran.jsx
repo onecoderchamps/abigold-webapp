@@ -140,7 +140,7 @@ const FormPendaftaran = () => {
           </div>
 
           {/* Tombol Submit */}
-          <div class="flex justify-end">
+          <div className="flex justify-end">
             <button
               onClick={handleSubmit}
               className="text-sm w-[161px] h-[48px] bg-[var(--secondary-color)] text-white py-2 hover:bg-[var(--main-color)] font-semibold italic"

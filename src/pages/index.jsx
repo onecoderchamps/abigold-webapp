@@ -199,8 +199,8 @@ const Home = () => {
             <h1 className="text-xl font-light mb-4 text-center pb-[36px]">
               PELAYANAN KAMI
             </h1>
-            {dataPleayanan.map((value) => (
-              <div>
+            {dataPleayanan.map((value, index) => (
+              <div key={index}>
                 <p className="text-gray-600 mb-2 text-justify text-lg font-extralight">
                   {value.title}
                 </p>
@@ -226,49 +226,49 @@ const Home = () => {
 
       {/* kegiatan kami */}
       <section className="w-full h-auto bg-mainColor-10">
-        <div class="container mx-auto px-4 py-10">
-          <h1 class="text-center text-2xl font-extralight mb-8 text-gray-700">
+        <div className="container mx-auto px-4 py-10">
+          <h1 className="text-center text-2xl font-extralight mb-8 text-gray-700">
             GALERI
             </h1>
 
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 ">
-            <div class="overflow-hidden rounded-lg shadow-lg ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 ">
+            <div className="overflow-hidden rounded-lg shadow-lg ">
               <Image
                 src={kegiatan}
                 alt="gambar"
-                class="w-full h-64 object-cover "
+                className="w-full h-64 object-cover "
               />
             </div>
 
-            <div class="overflow-hidden rounded-lg shadow-lg">
+            <div className="overflow-hidden rounded-lg shadow-lg">
               <Image
                 src={kegiatan2}
                 alt="gambar"
-                class="w-full h-64 object-cover"
+                className="w-full h-64 object-cover"
               />
             </div>
 
-            <div class="overflow-hidden rounded-lg shadow-lg">
+            <div className="overflow-hidden rounded-lg shadow-lg">
               <Image
                 src={kegiatan3}
                 alt="gambar"
-                class="w-full h-64 object-cover"
+                className="w-full h-64 object-cover"
               />
             </div>
 
-            <div class="overflow-hidden rounded-lg shadow-lg">
+            <div className="overflow-hidden rounded-lg shadow-lg">
               <Image
                 src={kegiatan4}
                 alt="gambar"
-                class="w-full h-64 object-cover"
+                className="w-full h-64 object-cover"
               />
             </div>
 
-            <div class="overflow-hidden rounded-lg shadow-lg">
+            <div className="overflow-hidden rounded-lg shadow-lg">
               <Image
                 src={kegiatan5}
                 alt="gambar"
-                class="w-full h-64 object-cover "
+                className="w-full h-64 object-cover "
               />
             </div>
           </div>

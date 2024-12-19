@@ -1,0 +1,37 @@
+{
+    "testimonials": [
+      {
+        "name": "Jerome Bell",
+        "date": "13/12/2024",
+        "rating": 5,
+        "comment": "Saya sangat puas dengan layanan PT Aurum Berkah Indonesia. Proses pembelian emasnya sangat cepat dan aman. Saya merasa tenang bertransaksi di sini.",
+        "image": "https://via.placeholder.com/100"
+      },
+      {
+        "name": "Jerome Bell",
+        "date": "13/12/2024",
+        "rating": 5,
+        "comment": "Tim ABI sangat membantu dan profesional. Mereka menjelaskan semuanya dengan jelas, dan saya merasa dihargai sebagai pelanggan. Terima kasih atas pengalaman luar biasa ini!",
+        "image": "https://via.placeholder.com/100"
+      },
+      {
+        "name": "Robert Fox",
+        "date": "13/12/2024",
+        "rating": 5,
+        "comment": "Sebagai pelanggan baru, saya merasa puas dengan kemudahan dan transparansi yang ditawarkan. ABI benar-benar menjadi solusi terbaik untuk kebutuhan investasi emas saya.",
+        "image": "https://via.placeholder.com/100"
+      }
+    ],
+    "agent": {
+      "name": "Albert Flores",
+      "comment": "Menjadi agen PT Aurum Berkah Indonesia adalah keputusan terbaik saya. Prosesnya mudah, dan dukungan dari tim sangat luar biasa. Penghasilan saya terus meningkat, dan saya merasa aman berbisnis dengan ABI.",
+      "images": [
+        "https://via.placeholder.com/100",
+        "https://via.placeholder.com/100",
+        "https://via.placeholder.com/100",
+        "https://via.placeholder.com/100",
+        "https://via.placeholder.com/100"
+      ]
+    }
+  }
+  

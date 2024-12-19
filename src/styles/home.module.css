@@ -1,0 +1,61 @@
+.section {
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.scrollContainer {
+  display: flex;
+  overflow-x: auto; /* Scroll ke samping */
+  gap: 16px; /* Jarak antar elemen */
+  padding: 10px;
+  white-space: nowrap; /* Pastikan elemen tetap di satu baris */
+  scrollbar-width: thin; /* Gaya scrollbar untuk browser */
+}
+
+.scrollContainer::-webkit-scrollbar {
+  height: 8px; /* Ukuran scrollbar di Chrome/Safari */
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.card {
+  flex: 0 0 auto; /* Menjaga lebar tetap pada ukuran kartu */
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+}
+
+.image {
+  border-radius: 8px;
+}
+
+.productTitle {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.price {
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+}
+

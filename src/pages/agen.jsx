@@ -4,7 +4,7 @@ import Headers from "./component/header";
 import Footers from "./component/footer";
 import agen from "/src/pages/image/agen.png";
 import { useState } from "react";
-import FormPendaftaran from "/src/pages/component/formPendaftarans";
+import FormPendaftaran from "/src/pages/component/formPendaftaran";
 
 const montserrat = Montserrat({
   subsets: ["latin"],

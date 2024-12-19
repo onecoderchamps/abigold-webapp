@@ -1,15 +1,20 @@
 import React from "react";
-import { Montserrat } from "next/font/google";
 
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "500", "700"], // Specify the weights you want
-  style: ["normal", "italic"], // Specify the styles you want (optional)
-});
+const agent = {
+  "name": "Albert Flores",
+  "comment": "Menjadi agen PT Aurum Berkah Indonesia adalah keputusan terbaik saya. Prosesnya mudah, dan dukungan dari tim sangat luar biasa. Penghasilan saya terus meningkat, dan saya merasa aman berbisnis dengan ABI.",
+  "images": [
+    "https://twillink.com/_next/image?url=http%3A%2F%2Ftwillink-main-service-158474999909.asia-southeast2.run.app%2Fapi%2Fv1%2FAttachment%2FDownload%2F673e9ea3f00aab992927be8e&w=3840&q=75",
+    "https://twillink.com/_next/image?url=http%3A%2F%2Ftwillink-main-service-158474999909.asia-southeast2.run.app%2Fapi%2Fv1%2FAttachment%2FDownload%2F673e9ea3f00aab992927be8e&w=3840&q=75",
+    "https://twillink.com/_next/image?url=http%3A%2F%2Ftwillink-main-service-158474999909.asia-southeast2.run.app%2Fapi%2Fv1%2FAttachment%2FDownload%2F673e9ea3f00aab992927be8e&w=3840&q=75",
+    "https://twillink.com/_next/image?url=http%3A%2F%2Ftwillink-main-service-158474999909.asia-southeast2.run.app%2Fapi%2Fv1%2FAttachment%2FDownload%2F673e9ea3f00aab992927be8e&w=3840&q=75",
+    "https://twillink.com/_next/image?url=http%3A%2F%2Ftwillink-main-service-158474999909.asia-southeast2.run.app%2Fapi%2Fv1%2FAttachment%2FDownload%2F673e9ea3f00aab992927be8e&w=3840&q=75"
+  ]
+}
 
-const AgentRegistration = ({ agent }) => {
+const AgentRegistration = () => {
   return (
-    <div className={montserrat.className}>
+    <div>
       <section className="py-8">
         <h2 className="text-center text-2xl font-extralight mb-8">
           DAFTAR MENJADI AGEN KAMI

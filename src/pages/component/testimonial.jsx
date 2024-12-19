@@ -8,7 +8,31 @@ const montserrat = Montserrat({
   style: ["normal", "italic"], // Specify the styles you want (optional)
 });
 
-const Testimonials = ({ testimonials }) => {
+const testimonials = [
+  {
+    "name": "Jerome Bell",
+    "date": "13/12/2024",
+    "rating": 5,
+    "comment": "Saya sangat puas dengan layanan PT Aurum Berkah Indonesia. Proses pembelian emasnya sangat cepat dan aman. Saya merasa tenang bertransaksi di sini.",
+    "image": "https://twillink.com/_next/image?url=http%3A%2F%2Ftwillink-main-service-158474999909.asia-southeast2.run.app%2Fapi%2Fv1%2FAttachment%2FDownload%2F673e9ea3f00aab992927be8e&w=3840&q=75"
+  },
+  {
+    "name": "Jerome Bell",
+    "date": "13/12/2024",
+    "rating": 5,
+    "comment": "Tim ABI sangat membantu dan profesional. Mereka menjelaskan semuanya dengan jelas, dan saya merasa dihargai sebagai pelanggan. Terima kasih atas pengalaman luar biasa ini!",
+    "image": "https://twillink.com/_next/image?url=http%3A%2F%2Ftwillink-main-service-158474999909.asia-southeast2.run.app%2Fapi%2Fv1%2FAttachment%2FDownload%2F673e9ea3f00aab992927be8e&w=3840&q=75"
+  },
+  {
+    "name": "Robert Fox",
+    "date": "13/12/2024",
+    "rating": 5,
+    "comment": "Sebagai pelanggan baru, saya merasa puas dengan kemudahan dan transparansi yang ditawarkan. ABI benar-benar menjadi solusi terbaik untuk kebutuhan investasi emas saya.",
+    "image": "https://twillink.com/_next/image?url=http%3A%2F%2Ftwillink-main-service-158474999909.asia-southeast2.run.app%2Fapi%2Fv1%2FAttachment%2FDownload%2F673e9ea3f00aab992927be8e&w=3840&q=75"
+  }
+]
+
+const Testimonials = () => {
   return (
     <div className={montserrat.className}>
     <section className="py-8">

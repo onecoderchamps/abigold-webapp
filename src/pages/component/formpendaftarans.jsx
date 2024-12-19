@@ -1,13 +1,6 @@
-import { Montserrat } from "next/font/google";
+
 import { useState } from "react";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "500", "700"],
-  style: ["normal", "italic"],
-});
-
-const FormPendaftaran = () => {
+const FormPendaftarans = () => {
 
   const [formData, setFormData] = useState({
     email: "",
@@ -54,7 +47,7 @@ const FormPendaftaran = () => {
   };
 
   return (
-    <div className={montserrat.className}>
+    <div>
       <section className="bg-white max-w-2xl mx-auto mt-10 p-8 rounded-lg shadow-md">
         <h2 className="bg-[var(--secondary-color)] text-white text-xl font-semibold py-3 px-5 rounded-t-lg -mt-8 -mx-8 mb-6 italic">
           Isi Formulir Pendaftaran
@@ -154,4 +147,4 @@ const FormPendaftaran = () => {
   );
 };
 
-export default FormPendaftaran;
+export default FormPendaftarans;

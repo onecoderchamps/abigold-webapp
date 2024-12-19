@@ -34,8 +34,11 @@ const AgentRegistration = ({ agent }) => {
               “Mulai perjalanan sukses Anda hari ini! <br /> Klik di sini untuk
               mendaftar dan jadilah bagian dari keluarga ABI.”
             </p>
-            <button className="bg-[var(--secondary-color)] text-white py-2 px-4 rounded hover:bg-pink-400">
-              Daftar Agen
+            <button
+              onClick={() => (window.location.href = "/agen")}
+              className="text-sm w-[161px] h-[48px] bg-[var(--secondary-color)] text-white py-2 hover:bg-[var(--main-color)] font-semibold italic"
+            >
+              Daftar
             </button>
           </div>
         </div>

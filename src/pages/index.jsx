@@ -21,6 +21,7 @@ import kegiatan5 from "/src/pages/image/Rectangle 23.png";
 
 ///mockup
 import testimonialsData from "./dummy/testimonial.json";
+import FloatingWhatsApp from "./component/floatingWa";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -76,7 +77,7 @@ const Home = () => {
             <p className="text-gray-600 mb-6">
               Mitra terpercaya anda dalam perdagangan emas.
             </p>
-            <button className=" bg-[#C77C87] text-white py-2 px-6 rounded-md hover:bg-[#b06a75]">
+            <button onClick={()=> window.location.href = "/about"} className=" bg-[#C77C87] text-white py-2 px-6 rounded-md hover:bg-[#b06a75]">
               Tentang Kami
             </button>
           </div>
@@ -282,6 +283,7 @@ const Home = () => {
       </section>
 
       <Footers />
+      <FloatingWhatsApp />
     </div>
   );
 };

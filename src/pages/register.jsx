@@ -34,7 +34,7 @@ const Register = () => {
     });
 
     const data = await response.json();
-    if (res.status === 201) {
+    if (response.status === 201) {
       setMessage("Registration successful. Please login.");
     } else {
       setMessage(data.message);

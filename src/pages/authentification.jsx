@@ -16,7 +16,7 @@ const Verifikasi = () => {
     <div className={montserrat.className}>
       <Headers />
       {/* verifikasi */}
-      <section className="w-full h-[799px] bg-mainColor-10">
+      <section className="w-full bg-mainColor-10">
         <Verifi />
       </section>
       <Footers />

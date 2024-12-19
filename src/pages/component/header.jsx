@@ -82,7 +82,7 @@ const Headers = () => {
           <Link href="/agen">
             <div className="pr-5">Agen</div>
           </Link>
-          <Link href="/verifikasi">
+          <Link href="/authentification">
             <div className="pr-5">Verifikasi</div>
           </Link>
         </div>

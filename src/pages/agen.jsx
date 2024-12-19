@@ -13,13 +13,14 @@ const montserrat = Montserrat({
 });
 
 const Agen = () => {
+  
   // State untuk form data
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phoneNumber: "",
-    domicile: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   phoneNumber: "",
+  //   domicile: "",
+  // });
 
   // Handler untuk input perubahan
   const handleChange = (e) => {
@@ -30,12 +31,7 @@ const Agen = () => {
     });
   };
 
-  // Handler untuk pengiriman formulir
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Misalnya: kirim form data ke server atau validasi
-    console.log(formData);
-  };
+  
 
   return (
     <div className={montserrat.className}>
@@ -68,7 +64,7 @@ const Agen = () => {
       {/* Formulir Pendaftaran */}
       <section className="w-full h-[599px] bg-mainColor-10">
         <div style={{ width: "100%", margin: "0 auto", paddingTop: "50px" }}>
-          <FormPendaftaran />
+          <FormPendaftaran/>
         </div>
       </section>
 
